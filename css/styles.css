@@ -21,11 +21,17 @@ header{
     height: 140px;
 }
 
+section{
+    scroll-margin-top: 7em; /*Reference: https://www.w3schools.com/cssref/css_pr_scroll-margin.php*/
+    padding-bottom:40px;
+}
+
 #container {
     width: 75%;
     background-color: lightgrey;
     padding: 40px;
     margin: auto;
+    margin-top: 54px;
 }
 
 .socialMedia img {
