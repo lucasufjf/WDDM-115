@@ -33,10 +33,6 @@ header{
     padding-top: 20px;
 }
 
-section{
-    padding-bottom:40px;
-}
-
 h1 {
     padding-top:30px;
     font-size: 200%;
@@ -96,6 +92,17 @@ h3{
 #navbar a:hover {
     background-color: cornflowerblue;
     color: black;
+}
+
+/*Reference: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
 }
 
 footer {
