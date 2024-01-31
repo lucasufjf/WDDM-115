@@ -27,11 +27,21 @@ header {
   height: auto;
 }
 
+section{
+    scroll-margin-top: 7em; /*Reference: https://www.w3schools.com/cssref/css_pr_scroll-margin.php*/
+    padding-bottom:40px;
+}
+
 #container {
   width: 75%;
   background-color: lightgrey;
   padding: 40px;
   margin: auto;
+    width: 75%;
+    background-color: lightgrey;
+    padding: 40px;
+    margin: auto;
+    margin-top: 54px;
 }
 
 .socialMedia img {
@@ -77,6 +87,41 @@ h3 {
 .circle {
   width: 300px;
   border-radius: 50%;
+}
+
+#navbar {
+    width:100%;
+    text-align: center;
+    overflow: hidden;
+    background-color: #333;
+    padding-top: 15px;
+    padding-bottom:15px;
+    display: block;
+}
+
+#navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+}
+
+/*Reference:https://www.w3schools.com/cssref/sel_hover.php*/
+#navbar a:hover {
+    background-color: cornflowerblue;
+    color: black;
+}
+
+/*Reference: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
 }
 
 footer {
